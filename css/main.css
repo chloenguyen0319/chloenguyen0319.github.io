@@ -1076,6 +1076,22 @@ img {
     border-radius: 0;
 }
 
+.project-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background: var(--bg-color);
+}
+
+.project-logo-img {
+    max-width: 60%;
+    height: auto;
+    max-height: 200px;
+    object-fit: contain;
+    display: block;
+}
+
 .project-content {
     padding: var(--spacing-lg);
     flex: 1;
@@ -1086,6 +1102,20 @@ img {
 .project-content h3 {
     color: var(--primary-color);
     margin-bottom: var(--spacing-sm);
+}
+
+.project-thumbnail {
+    margin-top: var(--spacing-sm);
+    margin-bottom: var(--spacing-lg);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.project-thumbnail-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
 }
 
 .project-description {

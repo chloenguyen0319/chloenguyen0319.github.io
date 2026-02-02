@@ -245,9 +245,17 @@
         grid-template-columns: 1fr;
     }
 
+    .project-image {
+        height: 150px;
+    }
+
     .project-image .image-placeholder {
         height: 150px;
         font-size: 3rem;
+    }
+
+    .project-logo-img {
+        max-height: 150px;
     }
 
     .project-content {
