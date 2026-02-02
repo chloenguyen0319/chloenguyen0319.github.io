@@ -204,7 +204,20 @@
         align-items: flex-start;
     }
 
-    .logo-placeholder {
+    .logo-placeholder,
+    .company-logo-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* Education */
+    .education-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .university-logo .logo-placeholder,
+    .university-logo-img {
         width: 60px;
         height: 60px;
     }

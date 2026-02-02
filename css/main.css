@@ -476,6 +476,15 @@ img {
 .value-icon {
     font-size: 2.5rem;
     margin-bottom: var(--spacing-sm);
+    color: #546e7a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value-icon svg {
+    width: 36px;
+    height: 36px;
 }
 
 .value-card h3 {
@@ -648,6 +657,48 @@ img {
 
 .timeline-description {
     margin: var(--spacing-md) 0;
+}
+
+.education-header {
+    display: flex;
+    gap: var(--spacing-md);
+    margin: var(--spacing-sm) 0 var(--spacing-md) 0;
+    align-items: flex-start;
+}
+
+.university-logo {
+    flex-shrink: 0;
+}
+
+.university-logo .logo-placeholder {
+    width: 80px;
+    height: 80px;
+}
+
+.university-logo-img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 8px;
+    border: 2px solid var(--border-color);
+    background: white;
+    padding: 8px;
+}
+
+.education-details {
+    flex: 1;
+}
+
+.education-details h3 {
+    color: var(--text-color);
+    font-weight: 500;
+    margin-bottom: var(--spacing-xs);
+}
+
+.education-details h4 {
+    color: var(--text-color);
+    font-weight: 400;
+    margin-bottom: var(--spacing-xs);
 }
 
 .coursework-section {
@@ -839,6 +890,16 @@ img {
 
 .company-logo {
     flex-shrink: 0;
+}
+
+.company-logo-img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 8px;
+    border: 2px solid var(--border-color);
+    background: white;
+    padding: 8px;
 }
 
 .logo-placeholder {
