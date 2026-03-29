@@ -10,7 +10,7 @@ This website is designed to be hosted on GitHub Pages. Simply push this reposito
 
 ```
 chloenguyen0319.github.io/
-├── index.html           # Home page with Hero, About, Education, Experience
+├── index.html           # Home page with Home, About, Education, Experience
 ├── projects.html        # Projects portfolio page
 ├── beyond.html          # Beyond Analytics - interests and activities
 ├── css/
@@ -31,11 +31,11 @@ chloenguyen0319.github.io/
 - **Personal & Approachable**: Blog-style aesthetic that feels warm and personal
 - **Fully Responsive**: Perfect on all devices from mobile to desktop
 
-## ✏️ Customization Guide
+<!-- ## ✏️ Customization Guide
 
 ### 1. Update Personal Information
 
-Search for `[Your Name]` in `index.html`, `projects.html`, and `beyond.html` and replace with your actual name.
+Search for `Linh Nguyen` in `index.html`, `projects.html`, and `beyond.html` and replace with your actual name.
 
 Update these placeholders throughout the site:
 - `[Your Name]` - Your full name
@@ -70,9 +70,9 @@ Edit CSS variables in `css/main.css` (lines 8-14) to match your personal brand:
     --text-color: #333333;     /* Body text */
     /* ... more colors */
 }
-```
+``` -->
 
-### 5. Update Content
+<!-- ### 5. Update Content
 
 #### Home Page (index.html)
 The home page contains all sections in one scrollable page:
@@ -102,9 +102,9 @@ The home page contains all sections in one scrollable page:
 - Replace example projects with your actual work
 - Add project screenshots to `assets/images/`
 - Update GitHub repository links
-- Ensure `data-category` attributes match your filter buttons
+- Ensure `data-category` attributes match your filter buttons -->
 
-### 6. Add Images
+<!-- ### 6. Add Images
 
 Place images in `assets/images/`:
 - `profile-photo.jpg` - Your professional headshot
@@ -162,7 +162,7 @@ Place images in `assets/images/`:
 3. **Optimize images**: Compress images before uploading (use tools like TinyPNG)
 4. **Test responsiveness**: View on multiple devices before publishing
 5. **Proofread**: Check for typos and grammatical errors
-6. **Get feedback**: Ask peers to review before going live
+6. **Get feedback**: Ask peers to review before going live -->
 
 ## 📄 License
 
