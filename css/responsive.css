@@ -11,6 +11,8 @@
     :root {
         --spacing-xl: 3rem;
         --spacing-lg: 2rem;
+        --section-space: 4rem;
+        --section-gap: 2rem;
     }
 
     .container {
@@ -54,6 +56,8 @@
         --spacing-md: 1.5rem;
         --spacing-lg: 2rem;
         --spacing-xl: 2.5rem;
+        --section-space: 3rem;
+        --section-gap: 1.5rem;
     }
 
     /* Navigation */
@@ -534,4 +538,3 @@ textarea:focus {
         will-change: opacity, transform;
     }
 }
-
