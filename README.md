@@ -10,8 +10,7 @@ This website is designed to be hosted on GitHub Pages. Simply push this reposito
 
 ```
 chloenguyen0319.github.io/
-├── index.html           # Home page with Home, About, Education, Experience
-├── projects.html        # Projects portfolio page
+├── index.html           # Home page with About, Experience, Projects, and Education
 ├── beyond.html          # Beyond Analytics - interests and activities
 ├── css/
 │   ├── main.css        # Global styles and components
@@ -24,7 +23,7 @@ chloenguyen0319.github.io/
 
 ## ✨ Features
 
-- **Clean Multi-Page Design**: Home, Projects, and Beyond Analytics pages
+- **Focused Site Structure**: Homepage with core portfolio sections plus a Beyond Analytics page
 - **Smooth Scrolling Navigation**: Click navigation links to smoothly scroll to sections on home
 - **Contact Info in Sidebar**: Easy access to contact information under profile picture
 - **Beyond Analytics Page**: Showcase your interests, hobbies, and activities outside of data
@@ -35,7 +34,7 @@ chloenguyen0319.github.io/
 
 ### 1. Update Personal Information
 
-Search for `Linh Nguyen` in `index.html`, `projects.html`, and `beyond.html` and replace with your actual name.
+Search for `Linh Nguyen` in `index.html` and `beyond.html` and replace with your actual name.
 
 Update these placeholders throughout the site:
 - `[Your Name]` - Your full name
@@ -98,12 +97,6 @@ The home page contains all sections in one scrollable page:
   - [EmailJS](https://www.emailjs.com/)
   - [Netlify Forms](https://www.netlify.com/products/forms/)
 
-#### Projects Page (projects.html)
-- Replace example projects with your actual work
-- Add project screenshots to `assets/images/`
-- Update GitHub repository links
-- Ensure `data-category` attributes match your filter buttons -->
-
 <!-- ### 6. Add Images
 
 Place images in `assets/images/`:
@@ -117,7 +110,6 @@ Place images in `assets/images/`:
 - ✅ Modern, minimalist, blog-style aesthetic
 - ✅ Fully responsive (mobile, tablet, desktop)
 - ✅ Smooth animations and transitions
-- ✅ Interactive project filtering on Projects page
 - ✅ Mobile-friendly hamburger navigation
 - ✅ SEO optimized with proper meta tags
 - ✅ Accessibility compliant (ARIA labels, keyboard navigation)
@@ -175,4 +167,3 @@ Found a bug or want to suggest an improvement? Feel free to open an issue or sub
 ---
 
 **Good luck with your internship search! 🚀**
-

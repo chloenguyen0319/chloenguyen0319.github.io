@@ -238,9 +238,6 @@ function initNavbarScroll() {
 // ===================================
 
 function initActiveNavigation() {
-    // Only run on single-page (index.html)
-    if (window.location.pathname.includes('projects.html')) return;
-    
     const sections = document.querySelectorAll('section[id]');
     const navLinks = document.querySelectorAll('.nav-link[href^="#"]');
     
@@ -394,4 +391,3 @@ console.log(`
 'font-size: 20px; font-weight: bold; color: #3498db;',
 'font-size: 14px; color: #2c3e50;'
 );
-
