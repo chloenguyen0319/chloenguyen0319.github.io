@@ -353,13 +353,6 @@ img {
     background: var(--bg-color);
 }
 
-.section-title {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: var(--spacing-lg);
-    color: var(--primary-color);
-}
-
 .cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -462,14 +455,41 @@ img {
 .experience-card,
 .project-card,
 .value-card,
-.beyond-card,
-.why-matters {
+.beyond-post {
     background:
         linear-gradient(180deg, rgba(255, 251, 246, 0.9), rgba(245, 237, 227, 0.82));
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border: 1px solid rgba(255, 255, 255, 0.58);
     box-shadow: var(--shadow);
+    transition: background var(--transition-speed), border-color var(--transition-speed), box-shadow var(--transition-speed), transform var(--transition-speed);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.timeline-content:hover,
+.timeline-content:focus-within,
+.experience-card:hover,
+.experience-card:focus-within,
+.project-card:hover,
+.project-card:focus-within,
+.value-card:hover,
+.value-card:focus-within,
+.beyond-post:hover,
+.beyond-post:focus-within {
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(250, 243, 235, 0.92));
+    border-color: rgba(255, 255, 255, 0.88);
+    box-shadow: 0 18px 42px rgba(23, 49, 59, 0.1);
+}
+
+.timeline-content:active,
+.experience-card:active,
+.project-card:active,
+.value-card:active,
+.beyond-post:active {
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(252, 246, 240, 0.94));
+    border-color: rgba(255, 255, 255, 0.94);
 }
 
 .image-note {
@@ -516,14 +536,14 @@ img {
 }
 
 .value-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-3px);
     box-shadow: var(--shadow-hover);
 }
 
 .value-icon {
     font-size: 2.5rem;
     margin-bottom: var(--spacing-sm);
-    color: #546e7a;
+    color: var(--accent-color);
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -1181,10 +1201,6 @@ img {
     margin-bottom: var(--spacing-sm);
 }
 
-.project-content {
-    max-width: 760px;
-}
-
 .project-thumbnail {
     margin-top: var(--spacing-sm);
     margin-bottom: var(--spacing-lg);
@@ -1590,15 +1606,6 @@ img {
 
 .page-header .title-underline {
     margin: 0 auto var(--spacing-md);
-}
-
-.section-kicker {
-    margin-bottom: 8px;
-    color: var(--accent-color);
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
 }
 
 .home-page .section-header {
